@@ -21,7 +21,7 @@ Write enough HTML and CSS to get a browser to render the following content.
 * Put today's date in an h1 tag.
 * Make a form element (you can leave the form `action` set to `#`)
 * Make a text input with a label that represents the city the user wants the weather for.   (Give the input a placeholder value of "Miami").
-* Make a button to submit the form.  When the form submits, the url should change to say `?city=Miami` at the end.
+* Make a button to submit the form.  When the form submits, the url should change to say `?city=Miami` at the end (Or whatever the user currently has typed into the input).
 * Place the date, temperature, and description of the weather each in its own div (_We don't need the page to be accurate. Just make up values_).
 
 ### CSS
