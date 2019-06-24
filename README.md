@@ -12,7 +12,7 @@ Write enough HTML and CSS to get a browser to render the following content.
 
 * Clone this repo and cd into it.
 * Create an issue called "Create Weather Page" and assign it to yourself.  Assign it a label of "enhancement"
-* Checkout a branch for your work with the naming convention `enhancement-(issue-number)-(issue-description)`
+* Checkout a branch for your work with the naming convention `enhancement-(issue-number)-(your-name)-(issue-description)`
 
 ### HTML
 
@@ -27,7 +27,7 @@ Write enough HTML and CSS to get a browser to render the following content.
 ### CSS
 
 * Create a css stylesheet and link it in the head of your HTML document.
-* Make one of the three images in the `/images` folder the background of the body.  Use a class to accomplish this, so that if the weather changes, we could change the image by changing the class attribute of the body element.
+* Make one of the three images in the `/images` folder the `background-image` of the body.  Use a class to accomplish this, so that if the weather changes, we could change the image by changing the class attribute of the body element.
 * Center all text
 * Color all the text white
 * Make the temperature much larger than the rest of the text
