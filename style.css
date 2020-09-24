@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  color: white;
+}
+
+.cloudy {
+  background-image: url(images/cloudy.jpg);
+}
+
+.rainy {
+  background-image: url(images/rainy.jpg);
+}
+
+.sunny {
+  background-image: url(images/sunny.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.temperature {
+  width: 150px;
+  border: 1px solid black;
+  margin: 100px 0;
+}
+
+.temperature p {
+  font-size: 50px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media only screen and (max-width: 500px) {
+  .temperature p {
+    color: red;
+  }
+}
